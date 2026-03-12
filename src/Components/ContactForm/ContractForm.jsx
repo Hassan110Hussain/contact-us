@@ -105,7 +105,7 @@ const ContractForm = () => {
           {submitted ? (
             <div className={styles.success_message}>
               <h3>Thank you for contacting us!</h3>
-              <p>We've received your message and will get back to you soon.</p>
+              <p>We&apos;ve received your message and will get back to you soon.</p>
             </div>
           ) : (
             <form onSubmit={onSubmit}>

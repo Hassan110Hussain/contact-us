@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styles from './Button.module.css';
 
 const Button = (props) => {
@@ -11,6 +12,22 @@ const Button = (props) => {
       {text}
     </button>
   );
+};
+
+Button.propTypes = {
+  isOutline: PropTypes.bool,
+  icon: PropTypes.node,
+  text: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  onClick: PropTypes.func,
+  type: PropTypes.string
+};
+
+Button.defaultProps = {
+  isOutline: false,
+  icon: null,
+  className: '',
+  type: 'button'
 };
 
 export default Button;

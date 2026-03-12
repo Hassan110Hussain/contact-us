@@ -6,7 +6,7 @@ const Home = () => {
       id: 1,
       title: 'The Importance of Effective Communication in Business',
       excerpt: 'Learn how clear communication can transform your business relationships and improve customer satisfaction.',
-      content: 'Effective communication is the cornerstone of any successful business. Whether you\'re managing a team, dealing with clients, or building partnerships, the ability to convey your message clearly and concisely can make all the difference. In today\'s fast-paced digital world, communication has become more important than ever. Companies that prioritize clear communication see higher employee engagement, better customer retention, and improved overall performance.',
+      content: 'Effective communication is the cornerstone of any successful business. Whether you&apos;re managing a team, dealing with clients, or building partnerships, the ability to convey your message clearly and concisely can make all the difference. In today&apos;s fast-paced digital world, communication has become more important than ever. Companies that prioritize clear communication see higher employee engagement, better customer retention, and improved overall performance.',
       date: 'March 10, 2026',
       readTime: '5 min read'
     },
@@ -14,7 +14,7 @@ const Home = () => {
       id: 2,
       title: 'Why Customer Support Matters More Than Ever',
       excerpt: 'Discover how exceptional customer support can set your business apart from competitors.',
-      content: 'In an era where customers have countless options, exceptional support is what keeps them coming back. A single positive interaction can turn a customer into a brand advocate, while poor support can drive them away permanently. Modern customers expect quick responses, personalized solutions, and genuine care. Investing in your customer support team isn\'t just about solving problems—it\'s about building lasting relationships that drive business growth.',
+      content: 'In an era where customers have countless options, exceptional support is what keeps them coming back. A single positive interaction can turn a customer into a brand advocate, while poor support can drive them away permanently. Modern customers expect quick responses, personalized solutions, and genuine care. Investing in your customer support team isn&apos;t just about solving problems&mdash;it&apos;s about building lasting relationships that drive business growth.',
       date: 'March 8, 2026',
       readTime: '6 min read'
     },
@@ -40,7 +40,7 @@ const Home = () => {
         <div className={styles.features_grid}>
           <div className={styles.feature_card}>
             <h3>24/7 Support</h3>
-            <p>We're always here to help you with any questions or concerns.</p>
+            <p>We&apos;re always here to help you with any questions or concerns.</p>
           </div>
           <div className={styles.feature_card}>
             <h3>Fast Response</h3>
@@ -54,7 +54,7 @@ const Home = () => {
       </section>
 
       <section className={styles.blog_section}>
-        <h2>Latest Insights & Articles</h2>
+        <h2>Latest Insights &amp; Articles</h2>
         <p className={styles.section_subtitle}>Stay informed with our expert tips and industry insights</p>
         <div className={styles.blog_grid}>
           {blogs.map(blog => (
@@ -68,7 +68,7 @@ const Home = () => {
               </div>
               <p className={styles.blog_excerpt}>{blog.excerpt}</p>
               <p className={styles.blog_content}>{blog.content}</p>
-              <a href="#" className={styles.read_more}>Read More →</a>
+              <a href="#" className={styles.read_more}>Read More &rarr;</a>
             </article>
           ))}
         </div>
@@ -76,7 +76,7 @@ const Home = () => {
 
       <section className={styles.cta_section}>
         <h2>Ready to Get in Touch?</h2>
-        <p>Have a question or want to learn more? We'd love to hear from you.</p>
+        <p>Have a question or want to learn more? We&apos;d love to hear from you.</p>
         <a href="/contact" className={styles.cta_button}>Contact Us Today</a>
       </section>
     </div>

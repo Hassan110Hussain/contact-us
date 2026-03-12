@@ -52,10 +52,10 @@ const About = () => {
         <div className={styles.mission_content}>
           <h2>Our Mission</h2>
           <p>
-            We believe that great communication is the foundation of successful business relationships. Our mission is to provide businesses with the tools and support they need to connect meaningfully with their customers. We're committed to making communication easier, faster, and more effective for everyone.
+            We believe that great communication is the foundation of successful business relationships. Our mission is to provide businesses with the tools and support they need to connect meaningfully with their customers. We&apos;re committed to making communication easier, faster, and more effective for everyone.
           </p>
           <p>
-            Since our founding, we've helped thousands of businesses improve their customer engagement and build lasting relationships. We're not just a service provider—we're your partner in success.
+            Since our founding, we&apos;ve helped thousands of businesses improve their customer engagement and build lasting relationships. We&apos;re not just a service provider&mdash;we&apos;re your partner in success.
           </p>
         </div>
       </section>
@@ -91,13 +91,13 @@ const About = () => {
         <h2>Our Story</h2>
         <div className={styles.story_content}>
           <p>
-            What started as a small initiative to improve customer communication has grown into a comprehensive platform serving businesses across various industries. We've learned that every business is unique, with its own challenges and opportunities.
+            What started as a small initiative to improve customer communication has grown into a comprehensive platform serving businesses across various industries. We&apos;ve learned that every business is unique, with its own challenges and opportunities.
           </p>
           <p>
-            Our team is passionate about understanding these unique needs and providing tailored solutions. We invest heavily in training, technology, and innovation to ensure we're always at the forefront of customer communication excellence.
+            Our team is passionate about understanding these unique needs and providing tailored solutions. We invest heavily in training, technology, and innovation to ensure we&apos;re always at the forefront of customer communication excellence.
           </p>
           <p>
-            Today, we're proud to serve a diverse clientele and continue our mission of making meaningful connections between businesses and their customers. We're excited about the future and the opportunity to help more businesses succeed.
+            Today, we&apos;re proud to serve a diverse clientele and continue our mission of making meaningful connections between businesses and their customers. We&apos;re excited about the future and the opportunity to help more businesses succeed.
           </p>
         </div>
       </section>
