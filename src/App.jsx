@@ -1,18 +1,20 @@
 import './App.css';
-import ContactHeader from './Components/ContactHeader/ContactHeader';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Components/Navigation/Navigation';
-import ContractForm from './Components/ContactForm/ContractForm';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
-
   return (
-  <div>
-    <Navigation/>
-    <main className='main_container'>
-    <ContactHeader/>
-    <ContractForm/>
-    </main>
-  </div>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
